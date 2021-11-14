@@ -22,7 +22,7 @@ export class TutorialPage implements OnInit {
 
   async finish() {
     await Storage.set({key: SEEN_KEY, value: JSON.stringify(true)});
-    await Storage.set({key: TRIAL_KEY, value: JSON.stringify(true)});
+    //await Storage.set({key: TRIAL_KEY, value: JSON.stringify(true)});
     this.router.navigateByUrl('/landing');
   }
 

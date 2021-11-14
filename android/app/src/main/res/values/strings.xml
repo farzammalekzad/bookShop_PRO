@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <string name="app_name">EnglishBookDownloaderLite</string>
-    <string name="title_activity_main">EnglishBookDownloaderLite</string>
-    <string name="package_name">ir.mohammad.malekzad.ketabyablite</string>
-    <string name="custom_url_scheme">ir.mohammad.malekzad.ketabyablite</string>
+    <string name="app_name">BookDownloaderPro</string>
+    <string name="title_activity_main">BookDownloaderPro</string>
+    <string name="package_name">ir.mohammad.malekzad.ketabyab</string>
+    <string name="custom_url_scheme">ir.mohammad.malekzad.ketabyab</string>
 </resources>
