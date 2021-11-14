@@ -58,9 +58,9 @@ export class DetailBookPage implements OnInit {
   }
 
   async download(url, name) {
-    const trial = await Storage.get({key: TRIAL_KEY});
-    console.log(JSON.parse(trial.value));
-    if (JSON.parse(trial.value)) {
+    //const trial = await Storage.get({key: TRIAL_KEY});
+    //console.log(JSON.parse(trial.value));
+    //if (JSON.parse(trial.value)) {
       const loading = await this.loadingCtrl.create({
         message: 'لطفا منتظر بمانید'
       });
@@ -100,15 +100,16 @@ export class DetailBookPage implements OnInit {
           loading.dismiss();
         });
       }
-    }
-    else {
+    //}
+    // Pro version (Trial version commented)
+    /*else {
       const alert = await this.alertCtrl.create({
         header: 'خریداری نسخه کامل',
         message: 'برای دانلود بیش از یک کتاب باید نسخه کامل خریداری شود',
         buttons: ['باشه']
       });
       alert.present();
-    }
+    }*/
   }
 
   async addFavorites() {
